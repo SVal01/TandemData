@@ -24,3 +24,9 @@ jobs:
           curl -X POST "https://:ss256v98Ts2d0AUqkU4QsQ@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:fuBuy_4qQR6PjNkk9QjWDg/streams/AQAAAFv34r48tkZtmDzvbMVdLMwAAAAA" \
             -H "Content-Type: application/json" \
             -d @stream.json
+
+      - name: Send JSON Data to Occupancy    # ← NEW
+        run: |
+          curl -X POST "https://:0ZAOKUjNQDCOCtnEc6AwmQ@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:fuBuy_4qQR6PjNkk9QjWDg/streams/AQAAAIOBpAqOWEzbnV_8WDKXx_oAAAAA" \
+            -H "Content-Type: application/json" \
+            -d @stream.json 
