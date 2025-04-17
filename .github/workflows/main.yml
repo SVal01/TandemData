@@ -15,18 +15,18 @@ jobs:
 
       - name: Send JSON Data to First URL
         run: |
-          curl -X POST "https://:nWEL6OvCSEi4tH46M2R4hA@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:fuBuy_4qQR6PjNkk9QjWDg/streams/AQAAACmO6jzINEmrlJNZojO1PhsAAAAA" \
+          curl -X POST "https://:vVtqTdoUQ5mYuhk9EOfQtA@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:DwQHHp8zT36WfW6ITqLNeg/streams/AQAAAMQhOtfHY0s3pHCXTvgx8g4AAAAA" \
             -H "Content-Type: application/json" \
             -d @stream.json
 
       - name: Send JSON Data to Second URL
         run: |
-          curl -X POST "https://:ss256v98Ts2d0AUqkU4QsQ@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:fuBuy_4qQR6PjNkk9QjWDg/streams/AQAAAFv34r48tkZtmDzvbMVdLMwAAAAA" \
+          curl -X POST "https://:vVtqTdoUQ5mYuhk9EOfQtA@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:DwQHHp8zT36WfW6ITqLNeg/streams/AQAAAMQhOtfHY0s3pHCXTvgx8g4AAAAA" \
             -H "Content-Type: application/json" \
             -d @stream.json
 
       - name: Send JSON Data to Occupancy  
         run: |
-          curl -X POST "https://:0ZAOKUjNQDCOCtnEc6AwmQ@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:fuBuy_4qQR6PjNkk9QjWDg/streams/AQAAAIOBpAqOWEzbnV_8WDKXx_oAAAAA" \
+          curl -X POST "https://:vVtqTdoUQ5mYuhk9EOfQtA@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:DwQHHp8zT36WfW6ITqLNeg/streams/AQAAAMQhOtfHY0s3pHCXTvgx8g4AAAAA" \
             -H "Content-Type: application/json" \
             -d @stream.json 
