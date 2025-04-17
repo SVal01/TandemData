@@ -25,7 +25,7 @@ jobs:
             -H "Content-Type: application/json" \
             -d @stream.json
 
-      - name: Send JSON Data to Occupancy    # ← NEW
+      - name: Send JSON Data to Occupancy  
         run: |
           curl -X POST "https://:0ZAOKUjNQDCOCtnEc6AwmQ@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:fuBuy_4qQR6PjNkk9QjWDg/streams/AQAAAIOBpAqOWEzbnV_8WDKXx_oAAAAA" \
             -H "Content-Type: application/json" \
